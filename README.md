@@ -21,6 +21,24 @@ A modern 3D portfolio website showcasing my projects, skills, work experience, a
 - Functional contact form with email integration
 - Modern and clean user interface
 
+## Screenshots
+
+### Hero Section
+![Hero Section](.github/images/img1.png)
+*Interactive 3D hero section with smooth animations and dynamic background*
+
+### About Section
+![About Section](.github/images/img2.png)
+*Overview showcasing my expertise in Frontend, Full Stack Development, and problem-solving*
+
+### Tech Stack
+![Tech Stack](.github/images/img3.png)
+*Technologies and tools I work with - React, Node.js, Python, MongoDB, and more*
+
+### Projects Showcase
+![Projects Section](.github/images/img4.png)
+*Featured projects including AI Video Generator, Real-Time Chat App, and Uber Clone*
+
 ## How to Run Locally
 
 1. Clone this repository:

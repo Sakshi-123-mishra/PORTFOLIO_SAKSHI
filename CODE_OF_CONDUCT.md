@@ -1,16 +1,17 @@
-# Contributor Covenant Code of Conduct
+# Code of Conduct
 
-## Our Pledge
+This is my personal portfolio website. I maintain a respectful and professional environment.
 
-We as members, contributors, and leaders pledge to make participation in our
-community a harassment-free experience for everyone, regardless of age, body
-size, visible or invisible disability, ethnicity, sex characteristics, gender
-identity and expression, level of experience, education, socio-economic status,
-nationality, personal appearance, race, religion, or sexual identity
-and orientation.
+## Expected Behavior
 
-We pledge to act and interact in ways that contribute to an open, welcoming,
-diverse, inclusive, and healthy community.
+If you interact with this project:
+- Be respectful and professional
+- Provide constructive feedback
+- Respect intellectual property
+
+## Note
+
+This is a personal portfolio project, not an open-source project accepting contributions.
 
 ## Our Standards
 

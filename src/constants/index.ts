@@ -59,7 +59,7 @@ export const NAV_LINKS = [
   {
     id: "source-code",
     title: "Source Code",
-    link: "https://github.com",
+    link: "https://github.com/Sakshi-123-mishra/PORTFOLIO_SAKSHI",
   },
   {
     id: "resume",

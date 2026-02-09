@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Tilt } from "react-tilt";
+import Tilt from "react-parallax-tilt";
 
 import { CERTIFICATIONS, CORE_SUBJECTS, EXTRA_CURRICULAR } from "../constants";
 import { SectionWrapper } from "../hoc";
@@ -21,14 +21,7 @@ const CertificationCard = ({
   icon,
 }: CertificationCardProps) => {
   return (
-    <Tilt
-      options={{
-        max: 45,
-        scale: 1,
-        speed: 450,
-      }}
-      className="w-full sm:w-[360px]"
-    >
+    <Tilt tiltMaxAngleX={25} tiltMaxAngleY={25} className="w-full sm:w-[360px]">
       <motion.div
         variants={fadeIn("up", "spring", index * 0.5, 0.75)}
         className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card"

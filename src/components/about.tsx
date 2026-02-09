@@ -1,4 +1,4 @@
-import { Tilt } from "react-tilt";
+import Tilt from "react-parallax-tilt";
 import { motion } from "framer-motion";
 
 import { SERVICES } from "../constants";
@@ -15,14 +15,7 @@ type ServiceCardProps = {
 // Service Card
 const ServiceCard = ({ index, title, icon }: ServiceCardProps) => {
   return (
-    <Tilt
-      options={{
-        max: 45,
-        scale: 1,
-        speed: 450,
-      }}
-      className="xs:w-[250px] w-full"
-    >
+    <Tilt tiltMaxAngleX={25} tiltMaxAngleY={25} className="xs:w-[250px] w-full">
       <motion.div
         variants={fadeIn("right", "spring", 0.5 * index, 0.75)}
         className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card"
